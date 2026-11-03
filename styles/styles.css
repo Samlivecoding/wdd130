@@ -1,11 +1,11 @@
 nav {
     background-color: #333;
-    padding: auto;
+    padding: 1rem;
 }
 
 nav a {
     color: aqua;
-    padding: auto;
+    padding: 1rem;
     display: block;
 }
 
@@ -20,7 +20,7 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / alpha);
+    border: 1px solid rgb(0 0 0);
     /* 1 */
     padding: 1rem;
     background-color: #eee;
@@ -37,8 +37,8 @@ main img {
     width: 150px;
     height: auto;
     border: #eee;
-    padding: auto;
-    box-shadow: #eee;
+    padding: 1rem;
+    box-shadow: white;
 
 }
 
