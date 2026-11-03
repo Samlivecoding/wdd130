@@ -38,7 +38,7 @@ main img {
     height: auto;
     border: #eee;
     padding: 1rem;
-    box-shadow: none;
+    box-shadow: #333;
 
 }
 
