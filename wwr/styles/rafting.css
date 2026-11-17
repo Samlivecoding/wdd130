@@ -37,6 +37,7 @@ h2 {
     color: var(--primary-color);
 }
 
+/* ---------- Header: logo left, nav buttons right ---------- */
 header {
     display: flex;
     justify-content: space-between;
@@ -46,12 +47,10 @@ header {
     border: 1px solid var(--accent1-color);
 }
 
-/* ---------- Header ---------- */
 .logo {
     display: block;
     width: 100px;
     height: auto;
-
 }
 
 header nav ul {
@@ -74,13 +73,11 @@ header nav a:hover {
     background-color: var(--secondary-color);
 }
 
+/* ---------- Hero: image, title on top, text box in the middle ---------- */
 .hero {
     position: relative;
     margin-top: 12px;
-
 }
-
-/* ---------- Hero ---------- */
 
 .hero > img {
     display: block;
@@ -102,7 +99,6 @@ header nav a:hover {
 
 .hero article {
     position: absolute;
-    /* this was missing - article was below the image */
     top: 50%;
     left: 40px;
     right: 40px;
@@ -114,11 +110,10 @@ header nav a:hover {
     background-color: rgba(38, 70, 83, 0.85);
     color: #fff;
     border: 1px solid #fff;
-    /* keeps the floated image inside the box */
 }
 
 .hero article p {
-    flex: 1%;
+    flex: 1;
     font-size: 0.9rem;
 }
 
@@ -127,6 +122,7 @@ header nav a:hover {
     height: auto;
 }
 
+/* ---------- Boxed sections (History, Adventure) ---------- */
 section {
     margin: 12px 0;
     padding: 16px;
@@ -139,6 +135,7 @@ section h2 {
     color: var(--primary-color);
 }
 
+/* History: text | image | text */
 .history-content {
     display: flex;
     align-items: center;
@@ -155,6 +152,13 @@ section h2 {
     width: 200px;
     height: auto;
     display: block;
+}
+
+/* Adventure: 5 captioned images */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
 }
 
 .gallery figure {
@@ -174,6 +178,7 @@ section h2 {
     font-size: 0.85rem;
 }
 
+/* ---------- Footer: text left, icons right ---------- */
 footer {
     display: flex;
     justify-content: space-between;
@@ -190,7 +195,6 @@ footer p {
 .socialmedia {
     display: flex;
     gap: 8px;
-
 }
 
 .socialmedia a {
@@ -199,6 +203,5 @@ footer p {
 
 .socialmedia img {
     width: 30px;
-    /* icons had no size, so they were huge */
     height: 30px;
 }
