@@ -130,9 +130,12 @@ section {
 }
 
 section h2 {
-    margin-bottom: 16px;
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+    padding-bottom: 8px;
     text-align: center;
     color: var(--primary-color);
+    border-bottom: 4px solid var(--accent2-color);
 }
 
 /* History: text | image | text */
@@ -204,9 +207,4 @@ footer p {
 .socialmedia img {
     width: 30px;
     height: 30px;
-}
-
-section h2 {
-    border-bottom: 4px solid var(--accent2-color);
-    padding-bottom: 8px;
 }
