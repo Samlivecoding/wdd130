@@ -104,22 +104,22 @@ header nav a:hover {
     right: 40px;
     transform: translateY(-40%);
     display: flex;
-    align-items: center;
-    gap: 16px;
     padding: 12px 16px;
     background-color: rgba(38, 70, 83, 0.85);
     color: #fff;
     border: 1px solid #fff;
+    overflow: hidden;
 }
 
 .hero article p {
-    flex: 1;
     font-size: 0.9rem;
 }
 
 .hero article img {
+    float: right;
     width: 100px;
     height: auto;
+    margin-left: 12px;
 }
 
 /* ---------- Boxed sections (History, Adventure) ---------- */
@@ -204,4 +204,9 @@ footer p {
 .socialmedia img {
     width: 30px;
     height: 30px;
+}
+
+section h2 {
+    border-bottom: 4px solid var(--accent2-color);
+    padding-bottom: 8px;
 }
